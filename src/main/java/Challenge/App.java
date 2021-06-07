@@ -6,35 +6,33 @@
 package Challenge;
 
 /*
-Create a program that prompts for your weight, gender, number of drinks,
-the amount of alcohol by volume of the drinks consumed (as a percent), and
-the amount of time since your last drink. Calculate your blood alcohol
-content (BAC) using this formula
+Create a program that converts temperatures from Fahrenheit to Celsius or
+from Celsius to Fahrenheit. Prompt for the starting temperature. The program
+should prompt for the type of conversion and then perform the conversion.
 
-BAC = (A × 5.14 / W × r) − .015 × H
-where:
-A = (number of drinks * alcohol by volume) is total alcohol consumed, in ounces (oz).
-W is body weight in pounds.
-r is the alcohol distribution ratio:
-0.73 for men
-0.66 for women
-H is number of hours since the last drink.
-Display whether or not it’s legal to drive by comparing the blood alcohol content to 0.08.
+The formulas are:
+C = (F − 32) × 5 / 9
+        and
+F = (C × 9 / 5) + 32
 
 Example Output:
-Your BAC is 0.08
-It is not legal for you to drive.
+Press C to convert from Fahrenheit to Celsius.
+Press F to convert from Celsius to Fahrenheit.
+Your choice: C
+Please enter the temperature in Fahrenheit: 32
+The temperature in Celsius is 0.
 
-Constraint:
-Prevent the user from entering non-numeric values.
+Constraints:
+Ensure that you allow upper or lowercase values for C and F.
+Use as few output statements as possible and avoid repeating output strings.
 
 Challenges:
-*Handle metric units.
-*Look up the legal BAC limit by state and prompt for the state. Display a
-message that states whether or not it’s legal to drive based on the
-computed BAC.
-*Develop this as a mobile application that makes it easy to record each
-drink, updating the BAC each time a drink is entered.
+*Revise the program to ensure that inputs are entered as numeric values.
+Don’t allow the user to proceed if the value entered is not numeric.
+*Break the program into functions that perform the computations.
+*Implement this program as a GUI program that automatically updates the
+values when any value changes.
+*Modify the program so it also supports the Kelvin scale.
  */
 
 public class App {
