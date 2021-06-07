@@ -10,7 +10,7 @@
 
     <name>Exercise1</name>
     <!-- FIXME change it to the project's website -->
-    <url>https://github.com/jgpeachey/Peachey-COP3330-ex17.git</url>
+    <url>https://github.com/jgpeachey/Peachey-COP3330-ex18.git</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,7 +51,7 @@
                         <archive>
                             <manifest>
                                 <addClasspath>true</addClasspath>
-                                //change this line  <mainClass>Exercise17.base.App</mainClass>
+                                //change this line  <mainClass>Exercise18.base.App</mainClass>
                             </manifest>
                         </archive>
                     </configuration>
